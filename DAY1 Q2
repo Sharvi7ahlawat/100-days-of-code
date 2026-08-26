@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){
+    float a,b,sum,difference,product,quotient;
+    printf("enter the value of a");
+    scanf("%f",&a);
+    printf("enter the value of b");
+    scanf("%f",&b);
+    sum=a+b;
+    difference=a-b;
+    product=a*b;
+    quotient=a/b;
+    printf("sum is %.2f\n",sum);
+    printf("difference is %.2f\n",difference);
+    printf("product is %.2f\n",product);
+    printf("quotient is %.2f\n",quotient);
+
+}
